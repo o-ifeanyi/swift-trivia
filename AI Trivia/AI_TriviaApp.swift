@@ -9,9 +9,28 @@ import SwiftUI
 
 @main
 struct AI_TriviaApp: App {
+    
+    init() {
+        setupServiceContainer()
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(Router())
+                .environmentObject(SnackBarService.shared)
         }
+    }
+}
+
+private extension AI_TriviaApp {
+    
+    func setupServiceContainer() {
+        // Services
+        ServiceContainer.register(type: URLSession.self, .shared)
+        ServiceContainer.register(type: UserDefaults.self, .standard)
+        ServiceContainer.register(type: NetworkService.self, NewtworkServiceImpl())
+        
+        // Repositories
     }
 }

@@ -14,6 +14,22 @@
 		1E106ED12AB4762700FA6A6E /* AI_TriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E106ED02AB4762700FA6A6E /* AI_TriviaTests.swift */; };
 		1E106EDB2AB4762700FA6A6E /* AI_TriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E106EDA2AB4762700FA6A6E /* AI_TriviaUITests.swift */; };
 		1E106EDD2AB4762700FA6A6E /* AI_TriviaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E106EDC2AB4762700FA6A6E /* AI_TriviaUITestsLaunchTests.swift */; };
+		1E106EF62AB477E300FA6A6E /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E106EF52AB477E300FA6A6E /* Service.swift */; };
+		1E106EF82AB477F400FA6A6E /* ServiceContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E106EF72AB477F400FA6A6E /* ServiceContainer.swift */; };
+		1E106EFA2AB4782D00FA6A6E /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E106EF92AB4782D00FA6A6E /* Route.swift */; };
+		1E106EFC2AB4785F00FA6A6E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E106EFB2AB4785F00FA6A6E /* Router.swift */; };
+		1E106EFE2AB478C200FA6A6E /* JSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E106EFD2AB478C200FA6A6E /* JSONMapper.swift */; };
+		1E106F002AB478DC00FA6A6E /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E106EFF2AB478DC00FA6A6E /* Extentions.swift */; };
+		1E106F022AB478F400FA6A6E /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E106F012AB478F400FA6A6E /* Debouncer.swift */; };
+		1E106F042AB4796400FA6A6E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E106F032AB4796400FA6A6E /* Constants.swift */; };
+		1E106F062AB4799D00FA6A6E /* SnackBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E106F052AB4799D00FA6A6E /* SnackBarView.swift */; };
+		1E106F092AB479D600FA6A6E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E106F082AB479D600FA6A6E /* Theme.swift */; };
+		1E106F0B2AB479FB00FA6A6E /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E106F0A2AB479FB00FA6A6E /* Symbols.swift */; };
+		1E106F0D2AB47A7D00FA6A6E /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E106F0C2AB47A7D00FA6A6E /* Endpoint.swift */; };
+		1E106F0F2AB47B2D00FA6A6E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E106F0E2AB47B2D00FA6A6E /* NetworkService.swift */; };
+		1E106F112AB47B5100FA6A6E /* NewtworkServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E106F102AB47B5100FA6A6E /* NewtworkServiceImpl.swift */; };
+		1E106F132AB47B9000FA6A6E /* SnackBarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E106F122AB47B9000FA6A6E /* SnackBarService.swift */; };
+		1E106F152AB47E2D00FA6A6E /* TriviaScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E106F142AB47E2D00FA6A6E /* TriviaScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +60,23 @@
 		1E106ED62AB4762700FA6A6E /* AI TriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI TriviaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E106EDA2AB4762700FA6A6E /* AI_TriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_TriviaUITests.swift; sourceTree = "<group>"; };
 		1E106EDC2AB4762700FA6A6E /* AI_TriviaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_TriviaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1E106EF52AB477E300FA6A6E /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		1E106EF72AB477F400FA6A6E /* ServiceContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceContainer.swift; sourceTree = "<group>"; };
+		1E106EF92AB4782D00FA6A6E /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		1E106EFB2AB4785F00FA6A6E /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		1E106EFD2AB478C200FA6A6E /* JSONMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMapper.swift; sourceTree = "<group>"; };
+		1E106EFF2AB478DC00FA6A6E /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		1E106F012AB478F400FA6A6E /* Debouncer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debouncer.swift; sourceTree = "<group>"; };
+		1E106F032AB4796400FA6A6E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1E106F052AB4799D00FA6A6E /* SnackBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackBarView.swift; sourceTree = "<group>"; };
+		1E106F082AB479D600FA6A6E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		1E106F0A2AB479FB00FA6A6E /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
+		1E106F0C2AB47A7D00FA6A6E /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		1E106F0E2AB47B2D00FA6A6E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		1E106F102AB47B5100FA6A6E /* NewtworkServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewtworkServiceImpl.swift; sourceTree = "<group>"; };
+		1E106F122AB47B9000FA6A6E /* SnackBarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackBarService.swift; sourceTree = "<group>"; };
+		1E106F142AB47E2D00FA6A6E /* TriviaScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaScreen.swift; sourceTree = "<group>"; };
+		1E33B09C2AB63BFE00405F69 /* AI-Trivia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AI-Trivia-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +127,10 @@
 		1E106EBE2AB4762600FA6A6E /* AI Trivia */ = {
 			isa = PBXGroup;
 			children = (
+				1E33B09C2AB63BFE00405F69 /* AI-Trivia-Info.plist */,
+				1E106EEA2AB4766100FA6A6E /* app */,
+				1E106EE92AB4765400FA6A6E /* core */,
 				1E106EBF2AB4762600FA6A6E /* AI_TriviaApp.swift */,
-				1E106EC12AB4762600FA6A6E /* ContentView.swift */,
 				1E106EC32AB4762700FA6A6E /* Assets.xcassets */,
 				1E106EC52AB4762700FA6A6E /* Preview Content */,
 			);
@@ -125,6 +160,125 @@
 				1E106EDC2AB4762700FA6A6E /* AI_TriviaUITestsLaunchTests.swift */,
 			);
 			path = "AI TriviaUITests";
+			sourceTree = "<group>";
+		};
+		1E106EE92AB4765400FA6A6E /* core */ = {
+			isa = PBXGroup;
+			children = (
+				1E106F072AB479C700FA6A6E /* resources */,
+				1E106EF42AB4779B00FA6A6E /* utils */,
+				1E106EF32AB4779300FA6A6E /* services */,
+				1E106EF22AB4778B00FA6A6E /* navigation */,
+				1E106EF12AB4778600FA6A6E /* di */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		1E106EEA2AB4766100FA6A6E /* app */ = {
+			isa = PBXGroup;
+			children = (
+				1E106EED2AB4769800FA6A6E /* data */,
+				1E106EEC2AB4767C00FA6A6E /* domain */,
+				1E106EEB2AB4766C00FA6A6E /* presentation */,
+				1E106EC12AB4762600FA6A6E /* ContentView.swift */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		1E106EEB2AB4766C00FA6A6E /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1E106EF02AB476C700FA6A6E /* component */,
+				1E106EEF2AB476BA00FA6A6E /* viewmodel */,
+				1E106EEE2AB4769F00FA6A6E /* view */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		1E106EEC2AB4767C00FA6A6E /* domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		1E106EED2AB4769800FA6A6E /* data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		1E106EEE2AB4769F00FA6A6E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1E106F142AB47E2D00FA6A6E /* TriviaScreen.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		1E106EEF2AB476BA00FA6A6E /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		1E106EF02AB476C700FA6A6E /* component */ = {
+			isa = PBXGroup;
+			children = (
+				1E106F052AB4799D00FA6A6E /* SnackBarView.swift */,
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
+		1E106EF12AB4778600FA6A6E /* di */ = {
+			isa = PBXGroup;
+			children = (
+				1E106EF52AB477E300FA6A6E /* Service.swift */,
+				1E106EF72AB477F400FA6A6E /* ServiceContainer.swift */,
+			);
+			path = di;
+			sourceTree = "<group>";
+		};
+		1E106EF22AB4778B00FA6A6E /* navigation */ = {
+			isa = PBXGroup;
+			children = (
+				1E106EF92AB4782D00FA6A6E /* Route.swift */,
+				1E106EFB2AB4785F00FA6A6E /* Router.swift */,
+			);
+			path = navigation;
+			sourceTree = "<group>";
+		};
+		1E106EF32AB4779300FA6A6E /* services */ = {
+			isa = PBXGroup;
+			children = (
+				1E106F0C2AB47A7D00FA6A6E /* Endpoint.swift */,
+				1E106F0E2AB47B2D00FA6A6E /* NetworkService.swift */,
+				1E106F102AB47B5100FA6A6E /* NewtworkServiceImpl.swift */,
+				1E106F122AB47B9000FA6A6E /* SnackBarService.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		1E106EF42AB4779B00FA6A6E /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				1E106EFD2AB478C200FA6A6E /* JSONMapper.swift */,
+				1E106EFF2AB478DC00FA6A6E /* Extentions.swift */,
+				1E106F012AB478F400FA6A6E /* Debouncer.swift */,
+				1E106F032AB4796400FA6A6E /* Constants.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		1E106F072AB479C700FA6A6E /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				1E106F082AB479D600FA6A6E /* Theme.swift */,
+				1E106F0A2AB479FB00FA6A6E /* Symbols.swift */,
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +411,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E106F132AB47B9000FA6A6E /* SnackBarService.swift in Sources */,
+				1E106F0D2AB47A7D00FA6A6E /* Endpoint.swift in Sources */,
 				1E106EC22AB4762600FA6A6E /* ContentView.swift in Sources */,
+				1E106EF82AB477F400FA6A6E /* ServiceContainer.swift in Sources */,
+				1E106F022AB478F400FA6A6E /* Debouncer.swift in Sources */,
+				1E106F062AB4799D00FA6A6E /* SnackBarView.swift in Sources */,
 				1E106EC02AB4762600FA6A6E /* AI_TriviaApp.swift in Sources */,
+				1E106EFA2AB4782D00FA6A6E /* Route.swift in Sources */,
+				1E106F042AB4796400FA6A6E /* Constants.swift in Sources */,
+				1E106F112AB47B5100FA6A6E /* NewtworkServiceImpl.swift in Sources */,
+				1E106F152AB47E2D00FA6A6E /* TriviaScreen.swift in Sources */,
+				1E106F002AB478DC00FA6A6E /* Extentions.swift in Sources */,
+				1E106F0B2AB479FB00FA6A6E /* Symbols.swift in Sources */,
+				1E106F0F2AB47B2D00FA6A6E /* NetworkService.swift in Sources */,
+				1E106EFC2AB4785F00FA6A6E /* Router.swift in Sources */,
+				1E106F092AB479D600FA6A6E /* Theme.swift in Sources */,
+				1E106EFE2AB478C200FA6A6E /* JSONMapper.swift in Sources */,
+				1E106EF62AB477E300FA6A6E /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +590,7 @@
 				DEVELOPMENT_TEAM = YYA8WP4LNJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AI-Trivia-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -430,7 +601,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ifeanyi.AI-Trivia";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.ifeanyi.aitrivia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -449,6 +620,7 @@
 				DEVELOPMENT_TEAM = YYA8WP4LNJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AI-Trivia-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -459,7 +631,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ifeanyi.AI-Trivia";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.ifeanyi.aitrivia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
