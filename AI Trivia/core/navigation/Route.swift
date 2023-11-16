@@ -10,6 +10,7 @@ import SwiftUI
 enum Route {
     case home
     case trivia
+    case preTrivia
 }
 
 extension Route: View {
@@ -19,6 +20,8 @@ extension Route: View {
             ContentView()
         case .trivia:
             TriviaScreen()
+        case .preTrivia:
+            PreTriviaScreen()
         }
     }
 }
@@ -34,6 +37,8 @@ extension Route: Hashable {
             return "home"
         case .trivia:
             return "trivia"
+        case .preTrivia:
+            return "preTrivia"
         }
     }
 }

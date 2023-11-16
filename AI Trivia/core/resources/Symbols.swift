@@ -11,4 +11,5 @@ enum Symbols {
     static let user = Image(systemName: "person.fill")
     static let setting = Image(systemName: "gearshape")
     static let search = Image(systemName: "magnifyingglass")
+    static let check = Image(systemName: "checkmark")
 }

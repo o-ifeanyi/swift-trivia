@@ -15,7 +15,7 @@ struct ContentView: View {
             NavigationStack(path: $router.routes) {
                 VStack {
                     Button("Start Trivia") {
-                        router.push(.trivia)
+                        router.push(.preTrivia)
                     }
                 }
                 .padding()

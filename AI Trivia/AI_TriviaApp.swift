@@ -18,6 +18,7 @@ struct AI_TriviaApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(Router())
+                .environmentObject(TriviaViewModel())
                 .environmentObject(SnackBarService.shared)
         }
     }
@@ -32,5 +33,6 @@ private extension AI_TriviaApp {
         ServiceContainer.register(type: NetworkService.self, NewtworkServiceImpl())
         
         // Repositories
+        ServiceContainer.register(type: TriviaRepository.self, TriviaRepositoryImpl())
     }
 }

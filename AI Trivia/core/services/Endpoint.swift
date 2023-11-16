@@ -8,30 +8,26 @@
 import SwiftUI
 
 enum Endpoint {
-    case trivia(data: Data)
+    case trivia(data: TriviaInfoModel)
 }
 
-extension Endpoint {
-//    var host: String {
-//        switch self {
-//        case .token:
-//            return "accounts.spotify.com"
-//        default:
-//            return "api.spotify.com"
-//        }
-//    }
-    
+extension Endpoint {
     var path: String {
-        switch self {
+        switch self {
         case .trivia:
-            return "/api/token"
+            return "/api.php"
         }
     }
     
     var queryItems: [String: String] {
         switch self {
-        default:
-            return [:]
+        case .trivia(let data):
+            return [
+                "amount": data.amount ?? "",
+                "category": "\(data.category!.id)",
+                "difficulty": data.difficulty!.lowercased(),
+                "type": data.type!.id,
+            ]
         }
     }
 }
@@ -39,7 +35,7 @@ extension Endpoint {
 extension Endpoint {
     enum MethodType {
         case get
-        case post(data: Data?)
+        case post(data: Encodable?)
     }
 }
 
@@ -48,7 +44,7 @@ extension Endpoint {
     var url: URL? {
         var urlComponent = URLComponents()
         urlComponent.scheme = "https"
-        urlComponent.host = "api.spotify.com"
+        urlComponent.host = "opentdb.com"
         urlComponent.path = path
         
         if !queryItems.isEmpty {
@@ -62,8 +58,8 @@ extension Endpoint {
     
     var type: MethodType {
         switch self {
-        case .trivia(let data):
-            return .post(data: data)
+        case .trivia:
+            return .get
         }
     }
     
@@ -73,12 +69,6 @@ extension Endpoint {
         request = URLRequest(url: url!)
         request.timeoutInterval = 20.0
         
-        @Service var userDefaults: UserDefaults
-        let token = userDefaults.string(forKey: Constants.token) ?? ""
-        request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
-        
-        
-        
         switch type {
             
         case .get:
@@ -86,7 +76,7 @@ extension Endpoint {
         case .post(let data):
             request.httpMethod = "POST"
             if let data = data {
-                request.httpBody = data
+                request.httpBody = try? JSONMapper.encode(data)
                 return request
             }
         }

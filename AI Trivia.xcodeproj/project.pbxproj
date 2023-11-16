@@ -30,6 +30,20 @@
 		1E106F112AB47B5100FA6A6E /* NewtworkServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E106F102AB47B5100FA6A6E /* NewtworkServiceImpl.swift */; };
 		1E106F132AB47B9000FA6A6E /* SnackBarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E106F122AB47B9000FA6A6E /* SnackBarService.swift */; };
 		1E106F152AB47E2D00FA6A6E /* TriviaScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E106F142AB47E2D00FA6A6E /* TriviaScreen.swift */; };
+		1E28EE0D2AF7998300DC2F31 /* StackedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E28EE0C2AF7998300DC2F31 /* StackedCardView.swift */; };
+		1E28EE0F2AF7B3DD00DC2F31 /* BackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E28EE0E2AF7B3DD00DC2F31 /* BackView.swift */; };
+		1E2CD7A02AE9377700D87565 /* TriviaInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CD79F2AE9377700D87565 /* TriviaInfoModel.swift */; };
+		1E2CD7A22AE93A2F00D87565 /* TriviaQuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CD7A12AE93A2F00D87565 /* TriviaQuestionModel.swift */; };
+		1E2CD7A42AE93C2200D87565 /* TriviaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CD7A32AE93C2200D87565 /* TriviaModel.swift */; };
+		1E2CD7A62AE93D0400D87565 /* PreTriviaScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CD7A52AE93D0400D87565 /* PreTriviaScreen.swift */; };
+		1EA3258F2AEEF5AA00F7517A /* WrappingHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3258E2AEEF5AA00F7517A /* WrappingHStack.swift */; };
+		1EA325912AEF073000F7517A /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA325902AEF073000F7517A /* Protocols.swift */; };
+		1EE597A72AEECCF800ADECA8 /* TriviaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE597A62AEECCF800ADECA8 /* TriviaRepository.swift */; };
+		1EE597A92AEECD9200ADECA8 /* TriviaRepositoryImpl.dart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE597A82AEECD9200ADECA8 /* TriviaRepositoryImpl.dart.swift */; };
+		1EE597AB2AEED2B800ADECA8 /* TriviaCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE597AA2AEED2B800ADECA8 /* TriviaCategory.swift */; };
+		1EE597AD2AEED34900ADECA8 /* TriviaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE597AC2AEED34900ADECA8 /* TriviaType.swift */; };
+		1EE597AF2AEEDE7800ADECA8 /* TriviaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE597AE2AEEDE7800ADECA8 /* TriviaViewModel.swift */; };
+		1EE597B12AEEE30700ADECA8 /* ChoiceChipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE597B02AEEE30700ADECA8 /* ChoiceChipView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,7 +90,21 @@
 		1E106F102AB47B5100FA6A6E /* NewtworkServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewtworkServiceImpl.swift; sourceTree = "<group>"; };
 		1E106F122AB47B9000FA6A6E /* SnackBarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackBarService.swift; sourceTree = "<group>"; };
 		1E106F142AB47E2D00FA6A6E /* TriviaScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaScreen.swift; sourceTree = "<group>"; };
+		1E28EE0C2AF7998300DC2F31 /* StackedCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedCardView.swift; sourceTree = "<group>"; };
+		1E28EE0E2AF7B3DD00DC2F31 /* BackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackView.swift; sourceTree = "<group>"; };
+		1E2CD79F2AE9377700D87565 /* TriviaInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaInfoModel.swift; sourceTree = "<group>"; };
+		1E2CD7A12AE93A2F00D87565 /* TriviaQuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaQuestionModel.swift; sourceTree = "<group>"; };
+		1E2CD7A32AE93C2200D87565 /* TriviaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaModel.swift; sourceTree = "<group>"; };
+		1E2CD7A52AE93D0400D87565 /* PreTriviaScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreTriviaScreen.swift; sourceTree = "<group>"; };
 		1E33B09C2AB63BFE00405F69 /* AI-Trivia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AI-Trivia-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1EA3258E2AEEF5AA00F7517A /* WrappingHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappingHStack.swift; sourceTree = "<group>"; };
+		1EA325902AEF073000F7517A /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		1EE597A62AEECCF800ADECA8 /* TriviaRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaRepository.swift; sourceTree = "<group>"; };
+		1EE597A82AEECD9200ADECA8 /* TriviaRepositoryImpl.dart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaRepositoryImpl.dart.swift; sourceTree = "<group>"; };
+		1EE597AA2AEED2B800ADECA8 /* TriviaCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaCategory.swift; sourceTree = "<group>"; };
+		1EE597AC2AEED34900ADECA8 /* TriviaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaType.swift; sourceTree = "<group>"; };
+		1EE597AE2AEEDE7800ADECA8 /* TriviaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaViewModel.swift; sourceTree = "<group>"; };
+		1EE597B02AEEE30700ADECA8 /* ChoiceChipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceChipView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +226,7 @@
 		1E106EEC2AB4767C00FA6A6E /* domain */ = {
 			isa = PBXGroup;
 			children = (
+				1EE597A62AEECCF800ADECA8 /* TriviaRepository.swift */,
 			);
 			path = domain;
 			sourceTree = "<group>";
@@ -205,6 +234,8 @@
 		1E106EED2AB4769800FA6A6E /* data */ = {
 			isa = PBXGroup;
 			children = (
+				1E2CD79E2AE9376000D87565 /* repository */,
+				1E2CD79D2AE9375900D87565 /* model */,
 			);
 			path = data;
 			sourceTree = "<group>";
@@ -213,6 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				1E106F142AB47E2D00FA6A6E /* TriviaScreen.swift */,
+				1E2CD7A52AE93D0400D87565 /* PreTriviaScreen.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -220,6 +252,7 @@
 		1E106EEF2AB476BA00FA6A6E /* viewmodel */ = {
 			isa = PBXGroup;
 			children = (
+				1EE597AE2AEEDE7800ADECA8 /* TriviaViewModel.swift */,
 			);
 			path = viewmodel;
 			sourceTree = "<group>";
@@ -228,6 +261,9 @@
 			isa = PBXGroup;
 			children = (
 				1E106F052AB4799D00FA6A6E /* SnackBarView.swift */,
+				1EE597B02AEEE30700ADECA8 /* ChoiceChipView.swift */,
+				1E28EE0C2AF7998300DC2F31 /* StackedCardView.swift */,
+				1E28EE0E2AF7B3DD00DC2F31 /* BackView.swift */,
 			);
 			path = component;
 			sourceTree = "<group>";
@@ -264,10 +300,12 @@
 		1E106EF42AB4779B00FA6A6E /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				1EA3258E2AEEF5AA00F7517A /* WrappingHStack.swift */,
 				1E106EFD2AB478C200FA6A6E /* JSONMapper.swift */,
 				1E106EFF2AB478DC00FA6A6E /* Extentions.swift */,
 				1E106F012AB478F400FA6A6E /* Debouncer.swift */,
 				1E106F032AB4796400FA6A6E /* Constants.swift */,
+				1EA325902AEF073000F7517A /* Protocols.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -279,6 +317,26 @@
 				1E106F0A2AB479FB00FA6A6E /* Symbols.swift */,
 			);
 			path = resources;
+			sourceTree = "<group>";
+		};
+		1E2CD79D2AE9375900D87565 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1E2CD79F2AE9377700D87565 /* TriviaInfoModel.swift */,
+				1E2CD7A12AE93A2F00D87565 /* TriviaQuestionModel.swift */,
+				1E2CD7A32AE93C2200D87565 /* TriviaModel.swift */,
+				1EE597AA2AEED2B800ADECA8 /* TriviaCategory.swift */,
+				1EE597AC2AEED34900ADECA8 /* TriviaType.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		1E2CD79E2AE9376000D87565 /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				1EE597A82AEECD9200ADECA8 /* TriviaRepositoryImpl.dart.swift */,
+			);
+			path = repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,6 +469,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE597A72AEECCF800ADECA8 /* TriviaRepository.swift in Sources */,
+				1E2CD7A22AE93A2F00D87565 /* TriviaQuestionModel.swift in Sources */,
 				1E106F132AB47B9000FA6A6E /* SnackBarService.swift in Sources */,
 				1E106F0D2AB47A7D00FA6A6E /* Endpoint.swift in Sources */,
 				1E106EC22AB4762600FA6A6E /* ContentView.swift in Sources */,
@@ -422,11 +482,23 @@
 				1E106F042AB4796400FA6A6E /* Constants.swift in Sources */,
 				1E106F112AB47B5100FA6A6E /* NewtworkServiceImpl.swift in Sources */,
 				1E106F152AB47E2D00FA6A6E /* TriviaScreen.swift in Sources */,
+				1E2CD7A62AE93D0400D87565 /* PreTriviaScreen.swift in Sources */,
+				1EE597B12AEEE30700ADECA8 /* ChoiceChipView.swift in Sources */,
+				1EA325912AEF073000F7517A /* Protocols.swift in Sources */,
+				1EA3258F2AEEF5AA00F7517A /* WrappingHStack.swift in Sources */,
 				1E106F002AB478DC00FA6A6E /* Extentions.swift in Sources */,
 				1E106F0B2AB479FB00FA6A6E /* Symbols.swift in Sources */,
+				1E2CD7A02AE9377700D87565 /* TriviaInfoModel.swift in Sources */,
 				1E106F0F2AB47B2D00FA6A6E /* NetworkService.swift in Sources */,
+				1E28EE0F2AF7B3DD00DC2F31 /* BackView.swift in Sources */,
+				1EE597AB2AEED2B800ADECA8 /* TriviaCategory.swift in Sources */,
+				1E28EE0D2AF7998300DC2F31 /* StackedCardView.swift in Sources */,
+				1E2CD7A42AE93C2200D87565 /* TriviaModel.swift in Sources */,
 				1E106EFC2AB4785F00FA6A6E /* Router.swift in Sources */,
+				1EE597A92AEECD9200ADECA8 /* TriviaRepositoryImpl.dart.swift in Sources */,
+				1EE597AD2AEED34900ADECA8 /* TriviaType.swift in Sources */,
 				1E106F092AB479D600FA6A6E /* Theme.swift in Sources */,
+				1EE597AF2AEEDE7800ADECA8 /* TriviaViewModel.swift in Sources */,
 				1E106EFE2AB478C200FA6A6E /* JSONMapper.swift in Sources */,
 				1E106EF62AB477E300FA6A6E /* Service.swift in Sources */,
 			);
