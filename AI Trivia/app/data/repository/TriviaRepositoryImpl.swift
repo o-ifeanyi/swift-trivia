@@ -1,5 +1,5 @@
 //
-//  TriviaRepositoryImpl.dart.swift
+//  TriviaRepositoryImpl.swift
 //  AI Trivia
 //
 //  Created by Ifeanyi Onuoha on 29/10/2023.
